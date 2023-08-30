@@ -13,6 +13,8 @@ A API de Validação de Senha é um serviço que verifica se uma senha atende a 
 - Deve conter pelo menos um caractere especial.
 - Não deve possuir caracteres repetidos.
 
+## Desenho Solução
+![alt text](https://github.com/gustavo-arao95/password-validator-api/blob/main/Diagrama%20sem%20nome.png)
 ## Como Usar
 
 Para usar a API, você pode fazer uma requisição POST para o endpoint `/validate-password` com a senha que deseja validar no corpo da requisição.
