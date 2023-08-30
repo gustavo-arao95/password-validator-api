@@ -3,8 +3,10 @@
 A API de Validação de Senha é um serviço que verifica se uma senha atende a critérios de segurança específicos.
 
 ## Funcionalidades
+- Validar se a senha atende aos critério de segurança
 
-- Verifica se a senha possui pelo menos 9 caracteres.
+## Regras
+- A senha deve conter pelo menos 9 caracteres.
 - Deve conter pelo menos um número.
 - Deve conter pelo menos uma letra minúscula.
 - Deve conter pelo menos uma letra maiúscula.
@@ -29,7 +31,7 @@ Para usar a API, você pode fazer uma requisição POST para o endpoint `/valida
 
 ```json
 {
-  "password": "SenhaSegura123!"
+  "password": "A@roiu"
 }
 ```
 #### Exemplo de Resposta (Senha Válida)
@@ -44,7 +46,7 @@ Para usar a API, você pode fazer uma requisição POST para o endpoint `/valida
   "valid": false
   }
 ```
-## Cconfiguração
+## Configuração
 1. Copie este repositório para o seu ambiente local.
 2. Abra o projeto em uma IDE Java, como o IntelliJ IDEA.
 3. Execute o aplicativo.
