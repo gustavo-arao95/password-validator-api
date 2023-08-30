@@ -43,7 +43,20 @@ Para usar a API, você pode fazer uma requisição POST para o endpoint `/valida
 {
   "valid": false
   }
-
 ```
+## Cconfiguração
+1. Clone este repositório para o seu ambiente local.
+2. Abra o projeto em uma IDE Java, como o IntelliJ IDEA.
+3. Execute o aplicativo.
+4. Faça solicitações POST para http://localhost:8080/validate-password para validar senhas.
+
+## Tecnologia Usadas
+* Java;
+* Spring Boot;
+
+## Autor
+Gustavo A. S. Moreira
+
+
 
 
