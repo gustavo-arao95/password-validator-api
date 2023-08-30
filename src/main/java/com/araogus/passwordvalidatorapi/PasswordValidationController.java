@@ -49,8 +49,8 @@ public class PasswordValidationController {
     }
 
     private boolean hasSpecialChars(String password) {
-        Pattern p = Pattern.compile("[^A-Za-z0-9]");
-        Matcher m = p.matcher(password);
+        Pattern pattern = Pattern.compile("[^A-Za-z0-9]");
+        Matcher m = pattern.matcher(password);
         return m.find();
     }
 
