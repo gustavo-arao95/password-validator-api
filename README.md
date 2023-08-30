@@ -31,3 +31,19 @@ Para usar a API, você pode fazer uma requisição POST para o endpoint `/valida
 {
   "password": "SenhaSegura123!"
 }
+```
+#### Exemplo de Resposta (Senha Válida)
+```json
+{
+  "valid": true
+}
+```
+#### Exemplo de Resposta (Senha Inválida)
+```json
+{
+  "valid": false
+  }
+
+```
+
+
