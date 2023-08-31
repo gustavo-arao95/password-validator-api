@@ -60,7 +60,7 @@ Para usar a API, você pode fazer uma requisição POST para o endpoint `/valida
 * Postman;
 
   ## Demo
-https://drive.google.com/file/d/1YoKVVfT6GRfcK7r3wxE_3uGBYAQukKcj/view?usp=drive_link
+https://drive.google.com/file/d/1YoKVVfT6GRfcK7r3wxE_3uGBYAQukKcj/view?usp=sharing
 
 ## Autor
 Gustavo A. S. Moreira
